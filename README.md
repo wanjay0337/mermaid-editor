@@ -49,22 +49,26 @@
 
 **中文**
 
-無需安裝任何套件。下載後直接用瀏覽器打開，或放到任意靜態伺服器：
+無需安裝任何套件。下載後直接用瀏覽器打開，或放到任意靜態伺服器(Apache2)：
 
 ```bash
-# 用 Python 快速啟動本機伺服器
-python3 -m http.server 8080
-# 然後打開 http://localhost:8080
+apt install apache2
+
+cd /var/www/html/
+nano index.html
+
 ```
 
 **English**
 
-No build tools or dependencies to install. Just open the file in a browser, or serve it from any static host:
+No build tools or dependencies to install. Just open the file in a browser, or serve it from any static host(Apache2):
 
 ```bash
-# Quick local server with Python
-python3 -m http.server 8080
-# Then open http://localhost:8080
+apt install apache2
+
+cd /var/www/html/
+nano index.html
+
 ```
 
 ---
