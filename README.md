@@ -45,34 +45,6 @@
 
 ---
 
-## 快速開始 / Quick Start
-
-**中文**
-
-無需安裝任何套件。下載後直接用瀏覽器打開，或放到任意靜態伺服器(Apache2)：
-
-```bash
-apt install apache2
-
-cd /var/www/html/
-nano index.html
-
-```
-
-**English**
-
-No build tools or dependencies to install. Just open the file in a browser, or serve it from any static host(Apache2):
-
-```bash
-apt install apache2
-
-cd /var/www/html/
-nano index.html
-
-```
-
----
-
 ## 使用說明 / Usage Guide
 
 ### 編輯器 / Editor
@@ -186,11 +158,6 @@ cp mermaid-tool.html /var/www/html/index.html
 cp mermaid-tool.html /usr/share/nginx/html/index.html
 ```
 
-**GitHub Pages**
-1. 將檔案重命名為 `index.html` 並推送到 `main` 分支
-2. 在 Repository Settings → Pages 啟用 GitHub Pages
-3. 選擇 Source: `Deploy from a branch` → `main` → `/ (root)`
-
 **Netlify / Vercel**
 直接拖曳 `index.html` 到部署介面即可。
 
@@ -207,11 +174,6 @@ cp mermaid-tool.html /var/www/html/index.html
 ```bash
 cp mermaid-tool.html /usr/share/nginx/html/index.html
 ```
-
-**GitHub Pages**
-1. Rename the file to `index.html` and push to `main`
-2. Go to Repository Settings → Pages
-3. Set Source: `Deploy from a branch` → `main` → `/ (root)`
 
 **Netlify / Vercel**
 Drag and drop `index.html` onto the deploy interface.
